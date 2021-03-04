@@ -15,6 +15,18 @@ import org.junit.Assert.*
  */
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
+
+
+    /**
+     * A test is an instrumented test if it needs or benefits from being run on an emulated or real device.
+     * Instrumented tests almost always use the Android OS or Android framework.
+     * In this test, you're getting a Context, using InstrumentationRegistry.
+     * This allows you to get the package name and do a comparison.
+     * The difference between this test and the last test is that you're using Android Framework code.
+     */
+
+
+
     @Test
     fun useAppContext() {
         // Context of the app under test.
